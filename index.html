@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+		<title>H1 p5js</title>
+		
+		<script src="https://unpkg.com/@tensorflow/tfjs-core@3.7.0/dist/tf-core.min.js"></script>
+		<script src="https://unpkg.com/@tensorflow/tfjs-backend-webgl@3.7.0/dist/tf-backend-webgl.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/hand-pose-detection@2.0.0/dist/hand-pose-detection.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4/hands.min.js"></script>
+		
+		
+		<script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.min.js"></script>
+
+		<style>
+			* {
+				box-sizing: border-box;
+				user-select: none;
+			}
+			html,
+			body {
+				height: 100%;
+			}
+			body {
+				width: 100%;
+				margin: 0;
+				padding: 0;
+				background-color: lightgray;
+			}
+			.container {
+				margin: 20px 20px;
+				position: relative;
+			}
+			.layer {
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			canvas {
+				display: block;
+			}
+			/* video {
+				transform: scaleX(-1);
+				display: block;
+			} */
+		</style>
+	</head>
+	<body>		
+		<script src="src/sketch.js"></script>
+	</body>
+</html>
