@@ -1,10 +1,10 @@
-# dave_marionetta
+# Marionetta digitale
 
 
 
 
 # **Tema affrontato**
-Antologia a due mani, creazione di una marionetta digitale e interattiva. Questo tema è legato all’utilizzo di un metodo di riconoscimento dei punti principali delle mani. La sfida era quella di riuscire a creare una marionetta digitale, che sia legata alle nostre mani.
+creazione di una marionetta digitale e interattiva. Questo tema è legato all’utilizzo di un metodo di riconoscimento dei punti principali delle mani. La sfida era quella di riuscire a creare una marionetta digitale, che sia legata alle nostre mani.
 
 
 # **Design dell’interfaccia e modalità di interazione**
