@@ -4,9 +4,11 @@ let detector;
 let img;
 let img2;
 let img3;
+let img4;
+let img5;
 let medio; // Definisci la variabile medio
 
-const imgsize = 400;
+const imgsize = 600;
 let bgColor = 255; // colore di sfondo iniziale
 
 function setup() {
@@ -27,6 +29,8 @@ function preload() {
   img = loadImage('verde.png');
   img2 = loadImage('rosso.png');
   img3 = loadImage('azzurro.png');
+  img4 = loadImage('giallo.png');
+  img5 = loadImage('viola.png');
 }
 
 function keyPressed() {
@@ -36,7 +40,11 @@ function keyPressed() {
     medio = img3;
   } else if (key == 'a') {
     medio = img;
-  }
+  } else if (key == 'f') {
+    medio = img4;
+  } else if (key == 'g') {
+    medio = img5;
+  } 
 }
 
 function draw() {
@@ -44,6 +52,8 @@ function draw() {
   img.resize(imgsize, imgsize);
   img2.resize(imgsize, imgsize);
   img3.resize(imgsize, imgsize);
+  img4.resize(imgsize, imgsize);
+  img5.resize(imgsize, imgsize);
 
   if (detector && capture.loadedmetadata) {
     detector.estimateHands(capture.elt, {
