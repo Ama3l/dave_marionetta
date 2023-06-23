@@ -13,7 +13,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight); // dimensioni del canvas pari a quelle della finestra del browser
 
   capture = createCapture(VIDEO);
-  capture.size(640, 480);
+  capture.size(windowWidth, windowHeight);
   capture.hide();
 
   console.log('Carico modello...');
