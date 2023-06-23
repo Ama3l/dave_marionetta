@@ -18,6 +18,7 @@ sul palmo della mano, mentre utilizzando l’azione “Click”, premendo sul tr
 Ho usato la funzione mouse clicked per cambiare lo sfondo ogni volta che il mouse viene premuto.
 Per fare in modo che cambiasse espressione premendo una lettera diversa ho usato la funzione keyPressed e ho assegnato un immagine a ogni lettera che avevo bisogno.
 
+non sono riuscito a inserire le immagini e il video, si trovano nella cartella doc.
 
 
 # **Target e contesto d’uso**
