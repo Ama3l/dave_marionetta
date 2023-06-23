@@ -2,6 +2,11 @@
 
 
 
+
+# **Tema affrontato**
+Antologia a due mani, creazione di una marionetta digitale e interattiva. Questo tema è legato all’utilizzo di un metodo di riconoscimento dei punti principali delle mani. La sfida era quella di riuscire a creare una marionetta digitale, che sia legata alle nostre mani.
+
+
 # **Design dell’interfaccia e modalità di interazione**
 
 Il design dell’interfaccia risulta molto semplice, ho disegnato su illustrator tre tipi di faccia di cui si differenziano cambian-do il colore degli occhi e l’espressione.
